@@ -1,0 +1,34 @@
+{
+  "trailingComma": "none",
+  "printWidth": 160,
+  "importOrder": [
+    "^react(/.*)?$",
+    "^next(/.*)?$",
+
+    "<THIRD_PARTY_MODULES>",
+    "^@pages(/.*$(?<!\\.scss))?$",
+    "^@layouts(/.*$(?<!\\.scss))?$",
+    "^@components(/.*$(?<!\\.scss))?$",
+
+    "^@store(/.*)?$",
+
+    "^@configs(/.*)?$",
+
+    "^@services(/.*)?$",
+
+    "^@hooks(/.*)?$",
+
+    "^@types(/.*)?$",
+
+    "^@utils(/.*)?$",
+
+    "^@assets(/.*)?$",
+
+    "^..(/.*$(?<!\\.scss))?$",
+    "^.(/.*$(?<!\\.scss))?$",
+
+    "(.scss)$"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}
